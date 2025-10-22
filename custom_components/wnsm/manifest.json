@@ -1,19 +1,9 @@
 {
-    "domain": "wnsm",
-    "name": "WienerNetzeSmartmeter",
-    "codeowners": [
-        "@DarwinsBuddy"
-    ],
-    "config_flow": true,
-    "dependencies": [
-        "recorder"
-    ],
-    "documentation": "https://github.com/DarwinsBuddy/WienerNetzeSmartmeter",
-    "iot_class": "calculated",
-    "issue_tracker": "https://github.com/DarwinsBuddy/WienerNetzeSmartmeter/issues",
-    "requirements": [
-        "lxml",
-        "requests"
-    ],
-    "version": "1.0.1"
+  "domain": "wienernetze_official",
+  "name": "Wiener Netze (offizielle API)",
+  "codeowners": ["@lordmatthi"],
+  "integration_type": "hub",
+  "iot_class": "cloud_polling",
+  "version": "0.1.0",
+  "requirements": ["wiener-netze-smart-meter-api==0.1.4"]
 }
