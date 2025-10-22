@@ -2,7 +2,13 @@
     component constants
 """
 DOMAIN = "wnsm"
-
+PLATFORMS = ["sensor"]
+DEFAULT_SCAN_MIN = 30
+CONF_API_KEY = "api_key"
+CONF_CLIENT_ID = "client_id"
+CONF_CLIENT_SECRET = "client_secret"
+CONF_BP_USER = "bp_user"                 # Businessportal-Login (E-Mail)
+CONF_ZPN = "zaehlpunktnummer"            # 33-stellig
 CONF_ZAEHLPUNKTE = "zaehlpunkte"
 
 ATTRS_ZAEHLPUNKT_CALL = [
